@@ -1,0 +1,75 @@
+$primary-color: #1f0a69fa;
+$secondary-color: #0c0c0ccb;
+html {
+  font-family: sans-serif;
+}
+section {
+  box-sizing: border-box;
+}
+
+* {
+  color: $secondary-color;
+}
+h1 {
+  color: $primary-color;
+  margin-bottom: 0.25em;
+}
+h2 {
+  color: $secondary-color;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+li {
+  list-style: none;
+
+}
+img {
+  
+}
+button {
+  cursor: pointer;
+}
+.contact__type {
+  color: blue;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+}
+.contact__value {
+  margin-top: 7px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.description {
+  max-width: 600px;
+  text-align: left;
+}
+.trans-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.header-list {
+  margin-left: -40px;
+}
+.header-item-lang-ru {
+margin-left: 40px;
+
+}
+.translate {
+  height: 60px;
+}
+.lang {
+  margin-top: 20px;
+  
+}
+.skills {
+  text-align: left;
+}
+.letter {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+
